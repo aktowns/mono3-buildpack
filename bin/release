@@ -1,3 +1,7 @@
+#!/bin/sh
+
+cat << EOF
 ---
 config_vars:
-    PATH: "vendor/mono3/bin:/usr/bin/:/bin"
+    PATH: "/app/vendor/mono3/bin:/usr/bin/:/bin"
+EOF
