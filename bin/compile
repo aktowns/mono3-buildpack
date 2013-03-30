@@ -1,0 +1,7 @@
+#!/bin/sh
+
+MONO3_VM_BINARY="http://peach.avoidinspace.com/mono3.tar.bz2"
+MONO3_VM_VENDOR="vendor/"
+
+mkdir -p "$1/$MONO3_VM_VENDOR"
+curl $MONO3_VM_BINARY -o - | tar xjf -C "$1/$MONO3_VM_VENDOR" -f -

@@ -1,0 +1,3 @@
+---
+config_vars:
+    PATH: "vendor/mono3/bin:/usr/bin/:/bin"
